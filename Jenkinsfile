@@ -7,7 +7,7 @@ node{
             echo "previous build number: ${currentBuild.previousBuild.getNumber()}"
            
             echo 'BRANCH_NAME = Jasmine Frame Work"'
-      def TAG = "${BRANCH_NAME}_${env.BUILD_NUMBER}"
+      decho 'TAG = "${BRANCH_NAME}_${env.BUILD_NUMBER}"'
         
          
     }
