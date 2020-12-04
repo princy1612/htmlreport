@@ -6,10 +6,10 @@ node{
             echo "current build number: ${currentBuild.number}"
             echo "previous build number: ${currentBuild.previousBuild.getNumber()}"
            
-            echo 'BRANCH_NAME = Jasmine Frame Work"'
-      echo env.BUILD_NUMBER
- def  Latest_Build_Number = env.BUILD_NUMBER
-    def TAG = "${htmlreport}_$value: env.BUILD_NUMBER}"
+            echo 'BRANCH_NAME = htmlreport"'
+            echo env.BUILD_NUMBER
+
+   
         
          
     }
