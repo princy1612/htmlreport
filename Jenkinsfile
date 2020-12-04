@@ -9,7 +9,7 @@ node{
             echo 'BRANCH_NAME = Jasmine Frame Work"'
       echo env.BUILD_NUMBER
  def  Latest_Build_Number = env.BUILD_NUMBER
-    de TAG = "${Jasmine Frame Work}_$value: env.BUILD_NUMBER}"
+    def TAG = "${Jasmine Frame Work}_$value: env.BUILD_NUMBER}"
         
          
     }
