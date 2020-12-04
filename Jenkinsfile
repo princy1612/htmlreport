@@ -9,7 +9,7 @@ node{
             echo 'BRANCH_NAME = Jasmine Frame Work"'
       echo env.BUILD_NUMBER
    echo  'Latest_Build_Number = env.BUILD_NUMBER'
-      echo 'TAG = "${BRANCH_NAME}_$value: 'env.BUILD_NUMBER'}"'
+      echo 'TAG = "${BRANCH_NAME}_$value: env.BUILD_NUMBER}"'
         
          
     }
