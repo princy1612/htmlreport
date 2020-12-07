@@ -1,4 +1,4 @@
-//describe('Testing the Business Loan Application', ()=>{
+describe('Testing the Business Loan Application', ()=>{
     it("Check for Full Name", ()=>{
         const res = fullnameTest("Harsha");
         expect(res).toBeTruthy();
@@ -27,9 +27,9 @@
         const res = loantenureTest("5");
         expect(res).toBeTruthy();
     })
-//});
+});
 
-//describe('Testing the Create Account', ()=>{
+describe('Testing the Create Account', ()=>{
     it("Check for First Name", ()=>{
         const res = firstnameTest("Harsha");
         expect(res).toBeTruthy();
@@ -58,9 +58,9 @@
         const res = confirmpasswordTest("harsha@123");
         expect(res).toBeTruthy();
     })
-//});
+});
 
-//describe('Testing the Forgot Password', ()=>{
+describe('Testing the Forgot Password', ()=>{
     it("Check for Customer ID", ()=>{
         const res = customeridTest("2634");
         expect(res).toBeTruthy();
@@ -69,9 +69,9 @@
         const res = emailTest("harshaca@gmail.com");
         expect(res).toBeTruthy();
     })
-//});
+});
 
-//describe('Testing the Home Loan', ()=>{
+describe('Testing the Home Loan', ()=>{
     it("Check for Name", ()=>{
         const res = nameTest("Harsha");
         expect(res).toBeTruthy();
@@ -96,9 +96,9 @@
         const res = loantenureTest("5");
         expect(res).toBeTruthy();
     })
-//});
+});
 
-//describe('Testing the Apply for Loan on Credit Card', ()=>{
+describe('Testing the Apply for Loan on Credit Card', ()=>{
     it("Check for Name", ()=>{
         const res = nameTest("Harsha");
         expect(res).toBeTruthy();
@@ -119,9 +119,9 @@
         const res = passwordTest("harsha");
         expect(res).toBeTruthy();
     })
-//});
+});
 
-//describe('Testing the Account Login', ()=>{
+describe('Testing the Account Login', ()=>{
     it("Check for Customer ID", ()=>{
         const res = customeridTest("2634");
         expect(res).toBeTruthy();
@@ -134,9 +134,9 @@
         const res = passwordTest("harsha");
         expect(res).toBeTruthy();
     })
-//});
+});
 
-//describe('Testing the To check Transaction Details', ()=>{
+describe('Testing the To check Transaction Details', ()=>{
     it("Check for Customer ID", ()=>{
         const res = customeridTest("2634");
         expect(res).toBeTruthy();
@@ -149,9 +149,9 @@
         const res = passwordTest("harsha");
         expect(res).toBeTruthy();
     })
-//});
+});
 
-//describe('Testing the Net Banking', ()=>{
+describe('Testing the Net Banking', ()=>{
     it("Check for Customer ID", ()=>{
         const res = customeridTest("2634");
         expect(res).toBeTruthy();
@@ -168,9 +168,9 @@
         const res = pinTest("123456");
         expect(res).toBeTruthy();
     })
-//});
+});
 
-//describe('Testing the Personal Loan Application form', ()=>{
+describe('Testing the Personal Loan Application form', ()=>{
     it("Check for Full Name", ()=>{
         const res = fullnameTest("Harsha");
         expect(res).toBeTruthy();
@@ -195,9 +195,9 @@
         const res = branchTest("Kolar");
         expect(res).toBeTruthy();
     })
-//});
+});
 
-//describe('Testing the Statement on E-mail', ()=>{
+describe('Testing the Statement on E-mail', ()=>{
     it("Check for Customer ID", ()=>{
         const res = customeridTest("2634");
         expect(res).toBeTruthy();
@@ -214,4 +214,4 @@
         const res = pinTest("123456");
         expect(res).toBeTruthy();
     })
-//});   
+});   
