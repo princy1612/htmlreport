@@ -2,25 +2,16 @@
 node{
   
     stage('test advance script') {
-      bat '''cd C:\\Users\\40010003\\Desktop\\JS-Jasmineminiproject-main\\Jasmine Frame Work
-'''
+checkout([$class: 'GitSCM', branches: [[name: '*/main']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'adf05bd0-541b-40d0-b33f-a6aae4f95c10', url: 'https://github.com/princy1612/htmlreport.git']]])
        echo " SERVICE_NAME = 'html report'"
             echo "current build number: ${currentBuild.number}"
             echo "previous build number: ${currentBuild.previousBuild.getNumber()}"
-           
-            echo 'BRANCH_NAME = htmlreport"'
-            //echo env.BUILD_NUMBER
-
-   
-        
-         
+             //echo 'BRANCH_NAME =     
     }
     stage("checkuot")
     {
-bat '''cd C:\\Users\\40010003\\Desktop\\JS-Jasmineminiproject-main\\Jasmine Frame Work
-npm install
-'''
-
+checkout([$class: 'GitSCM', branches: [[name: '*/main']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'adf05bd0-541b-40d0-b33f-a6aae4f95c10', url: 'https://github.com/princy1612/htmlreport.git']]])
+bat 'npm install'
     }
     stage("execution of code")
     {
@@ -28,7 +19,7 @@ npm install
  node Bank.js'''
        // bat 'node Bank.js'
     }
-   stage("execution of test code")
+   stage("installation of jasmine")
     {
         bat '''cd C:\\Users\\40010003\\Desktop\\JS-Jasmineminiproject-main\\Jasmine Frame Work\\Spec
  npm install jasmine-node
@@ -36,10 +27,10 @@ npm install
  '''
        // bat 'node Bank.js'
     }
-   stage("execution of code")
+   stage("execution of test code")
     {
         bat '''cd C:\\Users\\40010003\\Desktop\\JS-Jasmineminiproject-main\\Jasmine Frame Work
-        npm run test
+        npx jasmine init
  '''
       
     }
