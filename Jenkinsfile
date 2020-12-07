@@ -32,7 +32,9 @@ bat 'npm install'
         bat '''cd C:\\Users\\40010003\\Desktop\\JS-Jasmineminiproject-main\\Jasmine Frame Work
         npx jasmine init
  '''
-      
+           bat '''cd C:\\Users\\40010003\\Desktop\\JS-Jasmineminiproject-main\\Jasmine Frame Work
+        npx jasmine Spec/Bank.js
+ '''
     }
   
     stage("html report")
