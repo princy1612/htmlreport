@@ -1,7 +1,7 @@
 {
   "name": "jasmine_testing_server",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/Bank.js",
   "scripts": {
     "test": "node jasmine.js"
   },
