@@ -31,13 +31,15 @@ npm install
    stage("execution of test code")
     {
         bat '''cd C:\\Users\\40010003\\Desktop\\JS-Jasmineminiproject-main\\Jasmine Frame Work
- npm install jasmine-node'''
+ npm install jasmine-node
+ jasmine init
+ '''
        // bat 'node Bank.js'
     }
    stage("execution of code")
     {
         bat '''cd C:\\Users\\40010003\\Desktop\\JS-Jasmineminiproject-main\\Jasmine Frame Work
- jasmine init'''
+// jasmine init'''
        // bat 'node Bank.js'
     }
    stage("execution of code")
