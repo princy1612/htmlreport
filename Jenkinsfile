@@ -7,7 +7,7 @@ node{
             echo "previous build number: ${currentBuild.previousBuild.getNumber()}"
            
             echo 'BRANCH_NAME = htmlreport"'
-            echo env.BUILD_NUMBER
+            //echo env.BUILD_NUMBER
 
    
         
