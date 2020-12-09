@@ -15,8 +15,8 @@ bat 'npm install'
     }
     stage("execution of code")
     {
-                bat '''spec\\Bank.js
-        npx jasmine Spec/Bank.js
+                bat '''spec\\BankSpec.js
+        npx jasmine Spec/BankSpec.js
  '''
         //bat '''src   $ node Bank.js
 // node Bank.js'''
