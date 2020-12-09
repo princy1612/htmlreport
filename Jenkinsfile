@@ -15,7 +15,7 @@ bat 'npm install'
     }
     stage("execution of code")
     {
-        bat '''src\\Bank.js
+        bat '''src\\Bank.js $ node Bank.js
  node Bank.js'''
        // bat 'node Bank.js'
     }
