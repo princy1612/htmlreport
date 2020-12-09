@@ -36,7 +36,7 @@ bat 'npm install'
  '''
       
              bat '''
-       npx  jasmine spec/bank.js
+       npx  jasmine spec/BankSpec.js
  '''
         //   bat '''Spec\\Bank.js
       //  npx jasmine Spec/Bank.js
