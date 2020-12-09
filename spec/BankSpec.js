@@ -246,7 +246,7 @@ function pinTest(password)
 describe('Testing the Business Loan Application', ()=>{
     it("Check for Full Name", ()=>{
         const res = fullnameTest("Harsha");
-        expect(res).toBeTruthy();
+		expect(res).toBeTruthy();
     })
     it("Check for Phone No.", ()=>{
         const res = phonenoTest("7996485910");
@@ -428,10 +428,7 @@ describe('Testing the Personal Loan Application form', ()=>{
         const res = phonenoTest("7996485910");
         expect(res).toBeTruthy();
     })
-    it("Check for Account No.", ()=>{
-        const res = accountnotest("9874321685211111");
-        expect(res).toBeTruthy();
-    })
+   
     it("Check for IFSC", ()=>{
         const res = ifscTest("SHSBK000011");
         expect(res).toBeTruthy();
