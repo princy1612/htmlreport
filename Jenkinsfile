@@ -15,7 +15,7 @@ bat 'npm install'
     }
     stage("execution of code")
     {
-        bat '''cd C:\\Users\\40010003\\Desktop\\JS-Jasmineminiproject-main\\Jasmine Frame Work\\src
+        bat '''src\\Bank.js
  node Bank.js'''
        // bat 'node Bank.js'
     }
