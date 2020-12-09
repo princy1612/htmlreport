@@ -36,7 +36,7 @@ bat 'npm install'
 npx jasmine init'''
       
              bat ''' C:\\Users\\40010003\\Desktop\\JS-Jasmineminiproject-main\\Jasmine Frame Work
-       npx  jasmine spec/BankSpec.js
+       npx  jasmine spec/bank.js
  '''
         //   bat '''Spec\\Bank.js
       //  npx jasmine Spec/Bank.js
