@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "src/Bank.js",
   "scripts": {
-    "test": "node jasmine.js"
+    "test": "node spec/Bank.js"
   },
   "author": "",
   "license": "ISC",
