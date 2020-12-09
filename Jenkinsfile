@@ -32,11 +32,11 @@ bat 'npm install'
    stage("execution of test code")
     {
         bat '''
-        npx jasmine init
+       jasmine init
  '''
       
              bat '''
-        npx jasmine spec/Bank.js
+         jasmine spec/bank.js
  '''
         //   bat '''Spec\\Bank.js
       //  npx jasmine Spec/Bank.js
