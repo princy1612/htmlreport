@@ -15,19 +15,19 @@ bat 'npm install'
     }
     stage("execution of code")
     {
-     // bat''' C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Jenkins.jenkins\\workspace\\jasimepipeline
-    //  npx jasmine init '''
+     bat'''C:\\Users\\40010003\\Desktop\\JS-Jasmineminiproject-main\\Jasmine Frame Work\\src
+      node  Bank.js '''
    
-               // bat ''' npx jasmine Spec/BankSpec.js
+             
     }
 
    stage("installation of jasmine")
     {
-        bat '''
+        bat ''' C:\\Users\\40010003\\Desktop\\JS-Jasmineminiproject-main\\Jasmine Frame Work
  npm install jasmine-node
 
  '''
-       // bat 'node Bank.js'
+      
     }
    stage("execution of test code")
     {
@@ -38,8 +38,7 @@ npx jasmine init'''
              bat ''' C:\\Users\\40010003\\Desktop\\JS-Jasmineminiproject-main\\Jasmine Frame Work
        npx  jasmine spec/bank.js
  '''
-        //   bat '''Spec\\Bank.js
-      //  npx jasmine Spec/Bank.js
+     
 
     }
   
