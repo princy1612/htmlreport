@@ -23,7 +23,7 @@ bat 'npm install'
 
    stage("installation of jasmine")
     {
-        bat '''cd C:\\Users\\40010003\\Desktop\\JS-Jasmineminiproject-main\\Jasmine Frame Work\\Spec
+        bat '''
  npm install jasmine-node
 
  '''
