@@ -15,8 +15,11 @@ bat 'npm install'
     }
     stage("execution of code")
     {
-        bat '''src   $ node Bank.js
- node Bank.js'''
+                bat '''Spec\\Bank.js
+        npx jasmine Spec/Bank.js
+ '''
+        //bat '''src   $ node Bank.js
+// node Bank.js'''
        // bat 'node Bank.js'
     }
    stage("installation of jasmine")
@@ -32,7 +35,7 @@ bat 'npm install'
         bat '''cd C:\\Users\\40010003\\Desktop\\JS-Jasmineminiproject-main\\Jasmine Frame Work
         npx jasmine init
  '''
-           bat '''cd C:\\Users\\40010003\\Desktop\\JS-Jasmineminiproject-main\\Jasmine Frame Work
+           bat '''Spec\\Bank.js
         npx jasmine Spec/Bank.js
  '''
     }
