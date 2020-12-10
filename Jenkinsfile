@@ -15,10 +15,8 @@ bat 'npm install'
     }
     stage("execution of code")
     {
-     bat'''cd src
-      node  Bank.js '''
-   
-             
+   //  bat'''cd src
+  //    node  Bank.js '''       
     }
 
    stage("installation of jasmine")
