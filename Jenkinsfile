@@ -30,10 +30,7 @@ bat 'npm install'
     {
      bat '''npx jasmine init'''
       
-bat ''' 
-npx jasmine jasmine.js'''
-     
-
+    bat ''' npx jasmine jasmine.js'''
     }
   
     stage("html report")
